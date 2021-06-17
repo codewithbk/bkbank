@@ -48,8 +48,9 @@ public class RegisterScreen {
                             }
 
                             if(responseStatus.show_register_all_input_complete_message()){
-                                Date = "06/11/2017 12:26:18";
-//                                Date = methods.current_time();
+//                                 Date = "06/11/2017 12:26:18"; 
+//                                 Use when you want instant make your account.
+                                Date = methods.current_time();
                                 return true;
                             }
                         } else {
